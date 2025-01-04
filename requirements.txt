@@ -1,0 +1,14 @@
+keras==3.6.0
+matplotlib==3.10.0
+numpy==2.2.1
+PyEMD==1.0.0
+scipy==1.14.1
+sounddevice==0.5.1
+tensorflow==2.18.0
+torch==2.5.1
+nvidia-cudnn-cu12==9.5.1.17
+netron == 8.0.8
+visualkeras == 0.1.4
+
+# i had an issue with tensorflow and pytorch using different cudnn versions... so i also force installed the newest
+# pip install nvidia-cudnn-cu12==9.5.1.17
