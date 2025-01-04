@@ -35,6 +35,9 @@ grad-cam worked best for tanh + relu is seems to maily show the edges of the def
 
 adding additional output (+ more labels) improved the original NN's performance when testing of the entire dataset 
 
+
+![heatmap_for_layers_002.jpg](dit_res.png)
+
 non english presentation can be seen at
 https://docs.google.com/presentation/d/1rAR3Dee0S3J8oQNhG6NXNtX9vdKP1VwkIeI6kwKzFx4/edit?usp=sharing 
 
