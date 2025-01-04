@@ -10,7 +10,7 @@ added the ability to train for the flaw size not just flaw presence in the image
 
 ## locates the flaw in the image
 
-using inference_my_...py one can use grad-cam or score-cam to visualise where in the image the flaw was detected
+using inference_my_-----.py one can use grad-cam or score-cam to visualise where in the image the flaw was detected
 
 score-cam relu+relu
 ![heatmap_for_layers_002.jpg](fig_rel_rel_cam/heatmap_for_layers_002.jpg)
@@ -22,22 +22,21 @@ grad-cam tanh+relu
 
 also added requirements.txt
 
-use plot_model files let one output a graphical representation of the NN
+use plot_model files to create a graphical representation of the NN
 
 use testing_files/print_res.py to output the performance of the trained NN on the validation (and the entirety of the) dataset
-
 
 ## notes
 
 I felt it not necessary to re-upload the original dataset, download it from the original https://github.com/iikka-v/ML-NDT/tree/master 
 
-the best results were using score-cam and relu + relu activations at the end
+the best results were using score-cam and relu+relu activations at the end
 
-grad-cam worked best for tanh + relu is seems to maily show the edges of the defect, not the defect itself + it has issues with saturation
+grad-cam worked best for tanh+relu. It seems to mainly show the edges of the defect, not the defect itself. It also has issues with saturation.
 
-adding additional output (+ more labels) improved the original NN's performance when testing of the entire dataset 
+adding additional output (+ more labels) improved the original NN's performance when testing on the entire dataset 
 
-non english presentation can be seen at
+a short non english presentation can be seen at
 https://docs.google.com/presentation/d/1rAR3Dee0S3J8oQNhG6NXNtX9vdKP1VwkIeI6kwKzFx4/edit?usp=sharing 
 
 ## results:
