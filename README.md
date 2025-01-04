@@ -29,6 +29,8 @@ use testing_files/print_res.py to output the performance of the trained NN on th
 
 ## notes
 
+I felt it not necessary to re-upload the original dataset, download it from the original https://github.com/iikka-v/ML-NDT/tree/master 
+
 the best results were using score-cam and relu + relu activations at the end
 
 grad-cam worked best for tanh + relu is seems to maily show the edges of the defect, not the defect itself + it has issues with saturation
