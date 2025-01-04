@@ -1,0 +1,15 @@
+Combined Summary of just validation results:
+Sum of Binary Predictions: 111
+Sum of Binary Labels: 111.0
+Sum of Binary Residuals: 0.00
+Sum of Regression Predictions: 415.04
+Sum of Regression Labels: 402.53
+Sum of Regression Residuals: 19.07
+
+Combined Summary of all of the data:
+Sum of Binary Predictions: 12123
+Sum of Binary Labels: 12128.0
+Sum of Binary Residuals: 5.00
+Sum of Regression Predictions: 45027.48
+Sum of Regression Labels: 43808.88
+Sum of Regression Residuals: 2072.13
